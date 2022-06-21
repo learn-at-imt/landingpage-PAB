@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #f6de04;
+    line-height: 1.6;
+}
+
+
+#showcase{
+    background-image: url('../img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+}
+
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+    text-shadow: 0 05px 05px rgba(0,0,0,1);
+}
+
+#showcase h3{
+    font-size: 25px;
+    text-shadow: 0 02px 03px rgba(0,0,0,1);
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #f6de04;
+    border: #f6de04;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    background: #f6de04;
+    color: white;
+}
+
+#section-a{
+    padding: 20px;
+    background: #fd7403;
+    color: white;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: white;
+    color: #fd7403;
+    text-align: center;
+}
+#section-c{
+    display: flex; 
+}
+
+#section-c div{
+padding: 20px; 
+}
+
+#section-c .box-1{
+    background: #fd7403;
+    color: white;
+}
+
+
+#section-c .box-2{
+    background: white;
+    color: #fd7403;
+}
+
+#section-c .box-3{
+    background: #fd7403;
+    color: white;
+}
